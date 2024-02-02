@@ -1,4 +1,4 @@
-function [Q_sim,Q_hist] = SIRR_saliency(img1,img2)
+function [Q_sim,Q_hist] = CalSaliency(img1,img2)
 %Input : (1) img1: the reference image
 %        (2) img2: the distorted image
 %Output: (1) Q:    the quality score
